@@ -1,0 +1,37 @@
+{
+  "name": "inwebo/bookmarks-component",
+  "type": "library",
+  "description": "Very simple PHP bookmarks model.",
+  "keywords": ["php", "7", "bookmark", "bookmarks"],
+  "readme": "./README.md",
+  "time": "2019-03-01",
+  "authors": [
+    {
+      "name": "Inwebo veritas",
+      "homepage": "https://github.com/inwebo",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/inwebo/bookmarks-component",
+    "docs": "https://github.com/inwebo/bookmarks-component/blob/master/README.md"
+  },
+  "license": "GPL-3.0-only / GPL-3.0-or-later",
+  "require": {
+    "php": "~7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inwebo\\Bookmarks\\": ""
+    },
+    "psr-0": {
+      "Inwebo\\Bookmarks\\": "Model/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://github.com/inwebo/bookmarks-component"
+    }
+  ]
+}
