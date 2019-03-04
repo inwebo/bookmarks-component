@@ -16,7 +16,7 @@
     "source": "https://github.com/inwebo/bookmarks-component",
     "docs": "https://github.com/inwebo/bookmarks-component/blob/master/README.md"
   },
-  "license": "GPL-3.0-only / GPL-3.0-or-later",
+  "license": "GPL-3.0-only",
   "require": {
     "php": "~7.2"
   },
