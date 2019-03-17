@@ -2,7 +2,7 @@
 
 namespace Inwebo\Bookmarks\Model;
 
-class Tag
+class Tag implements TagInterface
 {
     /** @var string */
     protected $name;

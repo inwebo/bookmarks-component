@@ -2,7 +2,7 @@
 
 namespace Inwebo\Bookmarks\Model;
 
-class Bookmark
+class Bookmark implements BookmarkInterface
 {
     /** @var string */
     protected $title;
@@ -14,7 +14,7 @@ class Bookmark
     protected $date;
 
     /**
-     * @return null|string
+     * @return string
      */
     public function getTitle(): string
     {
